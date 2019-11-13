@@ -1,0 +1,2 @@
+include ':app', 'liboverscroll'
+rootProject.name='OverScrollModule'
