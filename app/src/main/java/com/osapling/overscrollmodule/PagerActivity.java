@@ -16,6 +16,8 @@ import androidx.viewpager.widget.ViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
+
 public class PagerActivity extends AppCompatActivity {
 
     public static void start(Context context) {
@@ -40,6 +42,8 @@ public class PagerActivity extends AppCompatActivity {
         colorList.add(Color.BLUE);
         colorList.add(Color.BLACK);
         colorList.add(Color.RED);
+
+        OverScrollDecoratorHelper.setUpOverScroll(vpPagers);
 
         vpPagers.setAdapter(new PagerAdapter() {
             @Override
