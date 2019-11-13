@@ -11,6 +11,12 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/btn_main_vp"
+            android:layout_width="match_parent"
+            android:text="ViewPager 使用"
+            android:layout_height="48dp"/>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="50dp"
